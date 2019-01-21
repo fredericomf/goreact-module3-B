@@ -161,6 +161,32 @@ Para roteamento REACT DOM
 yarn add react-router-dom
 ```
 
+### REDUX-SAGA
+
+É um middleware que fica entre a action e o reducer.
+
+```bash
+yarn add redux-saga
+```
+
+1. Criar uma pasta 'sagas' dentro da pasta ./src/store
+
+**NOTA_ESTUDO: Um arquivo que usa o saga pode ser encontrado em '/src/store/index.js'**
+
+### AXIOS
+
+Biblioteca para fazer chamadas ajax
+
+```bash
+yarn add axios
+```
+
+1. Criar uma pasta 'services' em './src'
+
+- Essa pasta serve para guardar qualquer tipo de configuração para serviços
+
+**Exemplo de uso pode ser encontrado no arquivo 'api.js'**
+
 <!-- AGUARDANDO PRA VER SE NESSE MÓDULO O PROFESSOR UTILIZARÁ ALGO DAS INSTRUÇÕES ABAIXO -->
 <!-- ### STYLED-COMPONENTS
 
@@ -172,15 +198,6 @@ yarn add styled-components
 
 \*NOTA: Para faciliar o desenvolvimento, instalar a extenção: vscode-styled-components [Julien Poissonnier]. Essa extenção vai dar um sintaxe highlighting nos styled components.
 
-### AXIOS
-
-Biblioteca para fazer chamadas ajax
-
-```bash
-yarn add axios
-```
-
-**Exemplo de configuração inicial em /src/services/api.js**
 
 ### MOMENT
 
