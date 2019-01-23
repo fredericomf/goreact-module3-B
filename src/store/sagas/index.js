@@ -7,10 +7,11 @@
  */
 import { all, takeLatest } from 'redux-saga/effects';
 
+import { Types as FavoriteTypes } from '../ducks/favorites';
 import { addFavorite } from './favorites';
 
 // NOTA_ESTUDO: Esse * depois do function é um 'generator' que trabalha de forma similar ao async await
 export default function* rootSaga() {
   // NOTA_ESTUDO: o all é como se fosse o combine reducers do redux (O yield é similar ao await)
-  yield all([takeLatest('ADD_FAVORITE_REQUEST', addFavorite)]);
+  yield all([takeLatest(FavoriteTypes.ADD_REQUEST, addFavorite)]);
 }

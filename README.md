@@ -258,3 +258,17 @@ if (process.env.NODE_ENV === "development") {
 4. Fazer as alterações no index.js do nosso store
 
 5. Tenho que importar o arquivo reactotron.js da pasta config no meu App.js
+
+### REACTOTRON: PLUGIN PARA O SAGA
+
+Esse plugin serve para termos as informações do saga no nosso reactotron
+
+```bash
+yarn add reactotron-redux-saga -D
+```
+
+1. Deverão ser feitas alterações no arquivo reactotron.js. Consulte o código para ver.
+
+2. Também são feitas alterações em: /src/store/index.js. Consulte o código para ver.
+
+NOTA_ESTUDO: Não funcionou por enquanto. Vide nota no arquivo supracitado.
